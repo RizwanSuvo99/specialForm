@@ -1,0 +1,85 @@
+/*===Fonts===*/
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Rajdhani:wght@500;600&display=swap');
+
+/*===Default CSS===*/
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+	font-family: 'Philosopher', sans-serif;
+	color: white;
+}
+.form{
+	background-image: linear-gradient(to bottom right,#060930,#321f28,#060930);
+	padding:30px 300px;
+}
+.form .header{
+	padding-left: 200px;
+}
+.form input{
+	margin: 10px auto;
+	border: 2px solid #3498db;
+	padding: 10px;
+	width: 300px;
+	border-radius: 24px;
+	transition: .3s;
+	background-image: linear-gradient(to bottom right,#060930,#321f28,#060930);
+}
+
+.form input:hover{
+	width:305px;
+	border-color:#b8e994;
+	transition: .3s;
+}
+
+.form input:focus{
+	width:305px;
+	border-color:#2ecc71;
+	transition: .3s;
+}
+
+.form input[type="radio"]{
+	margin: 15px;
+	padding: 0px;
+	width: auto;
+}
+select{
+	margin: 10px auto;
+	padding: 10px;
+	width: 100px;
+	color: white;
+	border-radius: 24px;
+	transition: .25s;
+	background-image: linear-gradient(to bottom right,#060930,#321f28,#060930);
+}
+option{
+	background-color: #321f28;
+}
+.form input[type="checkbox"]{
+	margin: 5px;
+	width: auto;
+}
+.footer{
+	padding-left: 140px;
+}
+.footer input{
+	width: 100px;
+}
+.footer input:hover{
+	width: 105px;
+	border-color:#b8e994;
+	transition: .3s;
+}
+.footer input:focus{
+	width:105px;
+	border-color:#2ecc71;
+	transition: .3s;
+}
+
+
+
+
+
+
+

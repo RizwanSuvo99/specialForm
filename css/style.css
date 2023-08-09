@@ -10,10 +10,14 @@
 	font-family: 'Philosopher', sans-serif;
 	color: white;
 }
-.form{
+
+body{
+	height:100vh;
 	background-image: linear-gradient(to bottom right,#060930,#321f28,#060930);
-	padding:30px 300px;
+	display: grid;
+	place-content:center;
 }
+
 .form .header{
 	padding-left: 200px;
 }
